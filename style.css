@@ -41,7 +41,8 @@ body::before{
 }
 
 .container{
-  max-width: 350px;
+  max-width: 400px;
+  min-height: 600px;
   border-radius: 15px;
   overflow: hidden;
   background-color: var(--Very-pale-blue);
@@ -53,11 +54,11 @@ body::before{
   width: 100%;
 }
 section.content{
- padding: 3.5rem;
+ padding: 4rem;
  text-align: center;
 }
 .content-title{
-  font-size: 2.6rem;
+  font-size: 3rem;
   margin:1.5rem 0;
   font-weight: 900;
   color: var(--Dark-blue);
@@ -78,13 +79,13 @@ p {
   margin: 1rem 0 3rem 0;
 }
 .flex img{
-  width: 4rem;
+  width: 4.5rem;
 }
 .flex p span{
   display: block;
 }
 p.annual-info{
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin-left: -6rem;
 }
 span.annual-plan{
@@ -95,12 +96,13 @@ span.annual-num{
   font-weight: 500;
 }
 .link a{
-  font-size:1.2rem;
+  font-size:1.4rem;
   font-weight: 700;
+  color: var(--Bright-blue);
 }
 .link a:hover{
   cursor: pointer;
-  color: var(--Bright-blue);
+ color:hsla(245, 75%, 52%,80%);
   text-decoration: none;
 }
 .btn{

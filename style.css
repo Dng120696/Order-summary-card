@@ -145,7 +145,7 @@ p.order:hover{
 }
 @media (min-width:769px){
   body::before{
-    top: -30rem;
+    top: -25rem;
     background:url(./images/pattern-background-desktop.svg)no-repeat center center;
     background-size: contain;
     z-index: 2;

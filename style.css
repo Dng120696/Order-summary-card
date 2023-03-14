@@ -48,7 +48,7 @@ body::before{
   background-color: var(--Very-pale-blue);
   margin:0 1.5rem;
   box-shadow:1px 1px 20px 1px var(--Desaturated-blue);
-  /* animation:opacity 2s ease-in-out; */
+  animation:opacity 2s ease-in-out;
 }
 .header-img{
   width: 100%;
